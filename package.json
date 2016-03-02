@@ -1,0 +1,39 @@
+{
+  "name": "deity-randomuser",
+  "version": "0.1.0",
+  "description": "A Deity plugin to generate random users",
+  "main": "dist/bundle.js",
+  "scripts": {
+    "test": "npm run build && mocha",
+    "eslint": "eslint .",
+    "build": "rollup -c",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DeityJS/deity-randomuser.git"
+  },
+  "keywords": [
+    "deity-plugin"
+  ],
+  "author": "Callum Macrae <callum@macr.ae>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DeityJS/deity-randomuser/issues"
+  },
+  "homepage": "https://github.com/DeityJS/deity-randomuser#readme",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.6.0",
+    "babel-preset-es2015-rollup": "^1.1.1",
+    "babel-register": "^6.6.0",
+    "eslint": "^2.2.0",
+    "mocha": "^2.4.5",
+    "rollup": "^0.25.4",
+    "rollup-plugin-babel": "^2.4.0",
+    "should": "^8.2.2"
+  },
+  "dependencies": {
+    "node-fetch": "^1.3.3",
+    "regenerator": "^0.8.42"
+  }
+}
