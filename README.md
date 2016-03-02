@@ -1,4 +1,4 @@
-# deity-randomuser
+# deity-randomuser [![Build Status](https://travis-ci.org/DeityJS/deity-randomuser.svg?branch=master)](https://travis-ci.org/DeityJS/deity-randomuser)
 
 A [randomuser.me] plugin for [Deity].
 
