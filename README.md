@@ -10,7 +10,7 @@ $ npm install --save-dev deity-randomuser
 
 ## Usage
 
-```
+```js
 var deity = require('deity');
 var randomuser = require('deity-randomuser');
 
