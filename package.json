@@ -1,6 +1,6 @@
 {
   "name": "deity-randomuser",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "A Deity plugin to generate random users",
   "main": "dist/bundle.js",
   "jsnext:main": "src/index.js",
