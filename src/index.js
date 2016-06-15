@@ -14,7 +14,7 @@ export default function* randomuser(options) {
 				throw new Error('No more users');
 			}
 
-			return user.user;
+			return user;
 		});
 	}
 }
